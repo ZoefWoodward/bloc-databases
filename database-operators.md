@@ -43,8 +43,8 @@ WHERE weight > 60 OR breed = 'great dane'
 ```
 
 >4. Given this cats table, what records are returned from these queries?
-SELECT name, adoption_date FROM cats;
-SELECT name, age FROM cats;
+-SELECT name, adoption_date FROM cats;
+-SELECT name, age FROM cats;
 ```
 name	adoption_date
 Mushi	2016-03-22
@@ -63,9 +63,9 @@ Nala	1
 ```
 
 >5.From the cats table, write queries to select the following pieces of data.
-Display all the information about all of the available cats.
-Choose one cat of each age to show to potential adopters.
-Find all of the names of the cats, so you don’t choose duplicate names for new cats.
+-Display all the information about all of the available cats.
+-Choose one cat of each age to show to potential adopters.
+-Find all of the names of the cats, so you don’t choose duplicate names for new cats.
 ```
 SELECT *
 FROM cats;
@@ -89,9 +89,9 @@ FROM cats;
 ```
 
 >7. From the cats table, what data is returned from these queries?
-SELECT name FROM cats WHERE gender = ‘F’;
-SELECT name FROM cats WHERE age <> 3;
-SELECT ID FROM cats WHERE name != ‘Mushi’ AND gender = ‘M’;
+-SELECT name FROM cats WHERE gender = ‘F’;
+-SELECT name FROM cats WHERE age <> 3;
+-SELECT ID FROM cats WHERE name != ‘Mushi’ AND gender = ‘M’;
 ```
 name
 Seashell
