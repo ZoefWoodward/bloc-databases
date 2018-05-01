@@ -41,7 +41,11 @@
      FROM payments
      WHERE payee = 'Mega Foods';
 ```
-`A: This query will return all payment amounts under 500 from Mega Foods.`
+```
+A: The first query will specify that we have selected the date, and the amount columns from the payments table.
+A: The second query will select the amount column from the payments table, where the amount is less than 500.
+A: The third query will select all columns from payments where the payee is 'Mega Foods'.
+```
 
 >8. Given this users table, write SQL queries using the following criteria and include the output.
 
